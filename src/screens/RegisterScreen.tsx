@@ -1,8 +1,8 @@
 import React from 'react'
 import { View } from 'react-native'
-import { LoginCard } from '../components/LoginCard';
+import { RegisterCard } from '../components/RegisterCard';
 
-export const LoginScreen = () => {
+export const RegisterScreen = () => {
 
   return (
     <View style={{
@@ -12,7 +12,7 @@ export const LoginScreen = () => {
       alignItems: 'center',
       paddingHorizontal: 20
     }}>
-        <LoginCard/>
+        <RegisterCard/>
     </View>
   )
 }
